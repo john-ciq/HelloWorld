@@ -1,3 +1,8 @@
+settings.xml
+target/
+pom.xml.releaseBackup
+release.properties
+
 # Compiled class file
 *.class
 
