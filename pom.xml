@@ -21,10 +21,14 @@
 
     <distributionManagement>
         <snapshotRepository>
+            <uniqueVersion>true</uniqueVersion>
+            <name>snapshots</name>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <name>sonatype</name>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
