@@ -14,4 +14,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <scm>
+        <connection>scm:git:git://github.com/john-ciq/HelloWorld.git</connection>
+        <developerConnection>scm:git:git@github.com:john-ciq/HelloWorld.git</developerConnection>
+        <url>https://github.com/john-ciq/HelloWorld.git</url>
+        <tag>HelloWorld-1.0.0</tag>
+    </scm>
+
 </project>
